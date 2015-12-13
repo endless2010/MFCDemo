@@ -1,0 +1,18 @@
+class StringRep {
+	friend class String;
+	StringRep(const char *s);
+	~StringRep();
+	int count; 
+	char *rep;
+};
+class String {
+public:	
+	String();	
+	String(const String &s);	
+	String &operator=(const String &s);
+	~String();	
+	String(const char *s);
+	. . . .
+private:
+	StringRep *rep;
+};

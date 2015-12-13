@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PropPage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/PropPage.res" /d "_DEBUG" /d "_AFXDLL" "D:\Vc Files\PropPage\PropPage.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PropPage.pdb" /debug /machine:I386 /out:"Debug/PropPage.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\Prop1.obj"
+".\Debug\Prop2.obj"
+".\Debug\Prop3.obj"
+".\Debug\PropPage.obj"
+".\Debug\PropPageDoc.obj"
+".\Debug\PropPageView.obj"
+".\Debug\PropSheet.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PropPage.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP21.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+PropPage.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Draw2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Draw2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Vc Files\Draw2\Draw2View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Draw2.pdb" /debug /machine:I386 /out:"Debug/Draw2.exe" /pdbtype:sept 
+".\Debug\Draw2.obj"
+".\Debug\Draw2Doc.obj"
+".\Debug\Draw2View.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Draw2.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Draw2View.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Draw2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ADD - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ADD.res" /d "_DEBUG" /d "_AFXDLL" "D:\Vc Files\ADD\ADD.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP137.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ADD.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\Vc Files\ADD\ADDView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP137.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP138.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ADD.pdb" /debug /machine:I386 /out:"Debug/ADD.exe" /pdbtype:sept 
+".\Debug\ADD.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\ADDDoc.obj"
+".\Debug\ADDView.obj"
+".\Debug\ADD.res"
+".\Debug\AddDlg.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP138.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ADDView.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ADD.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

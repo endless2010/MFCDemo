@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AppWizard - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP347.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/AppWizard.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\VC编程\AppWizard\AppWizard.cpp"
+"D:\VC编程\AppWizard\MainFrm.cpp"
+"D:\VC编程\AppWizard\AppWizardDoc.cpp"
+"D:\VC编程\AppWizard\AppWizardView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP347.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP348.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/AppWizard.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\VC编程\AppWizard\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP348.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AppWizard.cpp
+MainFrm.cpp
+AppWizardDoc.cpp
+AppWizardView.cpp
+Generating Code...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP349.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/AppWizard.pdb" /debug /machine:I386 /out:"Debug/AppWizard.exe" /pdbtype:sept 
+".\Debug\AppWizard.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\AppWizardDoc.obj"
+".\Debug\AppWizardView.obj"
+".\Debug\AppWizard.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP349.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/AppWizard.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\AppWizard.sbr" ".\Debug\MainFrm.sbr" ".\Debug\AppWizardDoc.sbr" ".\Debug\AppWizardView.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+AppWizard.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

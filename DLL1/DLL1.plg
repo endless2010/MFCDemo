@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DLL1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP224.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DLL1_EXPORTS" /Fp"Debug/DLL1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Vc Files\DLL1\DLL1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP224.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP225.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/DLL1.pdb" /debug /machine:I386 /out:"Debug/DLL1.dll" /implib:"Debug/DLL1.lib" /pdbtype:sept 
+".\Debug\DLL1.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP225.tmp"
+<h3>Output Window</h3>
+Compiling...
+DLL1.cpp
+d:\vc files\dll1\dll1.h(6) : error C2143: syntax error : missing ';' before '-'
+d:\vc files\dll1\dll1.h(7) : error C2143: syntax error : missing ';' before '-'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+DLL1.dll - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
